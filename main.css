@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+
+}
+.bg { 
+    /* The image used */
+    background-image: url("img/plate.jpg");
+
+    /* Full height */
+ height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}                   
+
+
+.nav-wrapper{
+    width: 100%;
+}
+
+
+.navbar{
+    
+        -webkit-box-shadow: 0 8px 6px -6px black;
+           -moz-box-shadow: 0 8px 6px -6px black;
+                box-shadow: 0 8px 6px -6px black;
+    
+}
+
+.btn{
+    border: 0px;
+}
+
+.btn-outline-secondary{
+
+   border-radius: 8px;
+   
+}
+
+.btn-outline-secondary:hover{
+    background:rgba(210,180,140,0.5)
+   
+    
+ }
+
+ .dropdown-menu{
+     background-color: transparent;
+     border: 0px;
+     color:#FFFFFF; 
+ }
+
+ .dropdown-item{
+     color:#FFFFFF;
+ }
+
+
+ a:hover {
+     background-color:transparent !important;
+    }
+
+    .dropdown-divider{
+        border-color:#ffffff;
+       
+    }
+                       /* main page box */
+
+
+
+.body-wrapper{
+    position:absolute;
+    top:100px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.card-wrapper{
+    position: relative;
+    justify-content: center;
+    flex-grow:4;
+    width:100%;
+    height:100%;
+}
+
+.centered{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card-box{
+    width:100%;
+    height:95%;
+    min-width:320px;
+    max-width:600px;
+    background:rgba(210,180,140,0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    overflow:scroll;
+}
